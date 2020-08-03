@@ -1,0 +1,31 @@
+{
+  "experiments": {
+    "experiment_name": "test",
+    "save_results": true,
+    "image_classes": null,
+    "class_coverage": [0.75,0.8,0.9,0.95,0.98,0.99,0.995,1.0],
+    "plane_through_origin": false,
+    "average_over_images": 10,
+    "lp_samples": 10000,
+    "scenario_blacklist": [],
+    "test_dict": {
+      "ar_2d": true,
+      "trees": true,
+      "specialization": true,
+      "other_stats": true
+    }
+  },
+  "models": {
+    "models_dir": "models/folder-name-here"
+  },
+  "data": {
+    "use_training_setup": true,
+    "test_batch_size": 10000
+  },
+  "misc": {
+    "random_seed": 1,
+    "use_cuda": true,
+    "num_workers": 0,
+    "pin_memory": true
+  }
+}
